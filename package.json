@@ -1,0 +1,18 @@
+{
+  "name": "jwt-auth-api-node",
+  "version": "1.0.0",
+  "description": "API de autenticación en Node.js sin dependencias: scrypt para contraseñas y JWT HS256 implementado con node:crypto.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": ["jwt", "auth", "scrypt", "nodejs", "zero-dependencies"],
+  "author": "Angel Castañeda Meza (https://github.com/angel-cm-dev)",
+  "license": "MIT"
+}
